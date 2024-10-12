@@ -53,6 +53,11 @@ See [[publishing]] for more details.
 - [[orphans]]
 - [[foam-logging-in-vscode]]
 
+
+### Mkdocs-Material
+
+It's good to use mkdocs-material!
+
 ## Code Snippet
 
 ```c
@@ -113,10 +118,6 @@ You can add an image or a code block, too.
 ```ruby
 puts "Hello World"~~~~
 ```
-
-### Mkdocs-Material
-
-It's good to use mkdocs-material!
 
 </details>
 
