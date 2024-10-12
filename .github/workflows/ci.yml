@@ -4,19 +4,22 @@ on:
     branches:
       - master
       - mkdocs
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      # Checkout the repository
+      - uses: actions/checkout@v3
+      
+      # Setup Python environment
+      - uses: actions/setup-python@v3
         with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-exclude
-      - run: pip install mkdocs-roamlinks-plugin
-      - run: mkdocs gh-deploy --force
-  
+          python-version: '3.10'
+      
+      # Install all required packages in one step
+      - run: |
+          pip install mkdocs-material mkdocs-exclude mkdocs-roamlinks-plugin
 
+      # Deploy to GitHub Pages
+      - run: mkdocs gh-deploy --force
