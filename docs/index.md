@@ -62,11 +62,19 @@ It's good to use mkdocs-material!
 
 You can create todos in Foam.
 
+- [ ] 修复图片无法访问问题
+- [ ] 选择更美观的主题
+- [ ] 查看 mkdocs 和 mkdocs-material 文档
 - [x] This is an example of a todo list item that's complete
 - [ ] This one is not completed yet
-- [ ] You can mark it completed by pressing `Option`+`C` (or `Alt`+`C`) when your cursor is on this line
-  - [ ] You can also select multiple lines and mark them all at once!
-- [x] Trying the Backlinking [[New Idea]]
+
+[通过github/gitee page生成网页，分享你的foam/obsidian/markdown笔记](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
+
+## 本地部署
+```sh
+pip install -U -r requirements.txt
+mkdocs serve 
+```
 
 ## Code Snippet
 
