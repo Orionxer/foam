@@ -58,7 +58,7 @@ See [[publishing]] for more details.
 
 It's good to use mkdocs-material!
 
-# Todo
+## Todo
 
 You can create todos in Foam.
 
