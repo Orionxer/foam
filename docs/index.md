@@ -114,6 +114,10 @@ You can add an image or a code block, too.
 puts "Hello World"~~~~
 ```
 
+### Mkdocs-Material
+
+It's good to use mkdocs-material!
+
 </details>
 
 [^1]: 脚注 1
