@@ -54,7 +54,7 @@ See [[publishing]] for more details.
 - [[foam-logging-in-vscode]]
 
 
-### Mkdocs-Material
+## Mkdocs-Material
 
 It's good to use mkdocs-material!
 
