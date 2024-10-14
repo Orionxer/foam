@@ -3,7 +3,7 @@
 
 site_name: Orionxer's Note
 theme:
-  name: cinder
+  name: material
   palette:
     # Palette toggle for light mode
     - scheme: default # 浅色模式
@@ -26,7 +26,7 @@ theme:
     # - navigation.instant
     # - navigation.instant.prefetch
     - navigation.tabs
-    # - navigation.tabs.sticky # 是否固定显示顶部栏
+    # - navigation.tabs.sticky # 固定显示顶部栏
     - navigation.indexes
     - navigation.path
     - navigation.sections
