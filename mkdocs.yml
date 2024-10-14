@@ -28,6 +28,7 @@ theme:
     - navigation.tabs
     # - navigation.tabs.sticky # 固定显示顶部栏
     - navigation.indexes
+    - navigation.footer
     - navigation.path
     - navigation.sections
     - content.code.copy # 代码复制按钮
@@ -37,7 +38,7 @@ markdown_extensions:
   - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
   - nl2br # newline-to-break 
   - toc:
-      permalink: true
+      permalink: false
   - admonition
   - footnotes
   - meta
@@ -78,3 +79,10 @@ plugins:
         - "*.gz"
       regex:
         - '.*\.(tmp|bin|tar)$'
+        
+copyright: Creative Commons BY SA 4.0
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Orionxer
+      name: Orionxer's github
