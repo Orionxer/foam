@@ -3,7 +3,7 @@
 
 site_name: Orionxer's Note
 theme:
-  name: material
+  name: cinder
   palette:
     # Palette toggle for light mode
     - scheme: default # 浅色模式
@@ -23,8 +23,15 @@ theme:
   language: zh # 中文，解决中文搜索问题
   features:
     - navigation.expand 
-    - tabs 
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    - navigation.tabs
+    # - navigation.tabs.sticky # 是否固定显示顶部栏
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
     - content.code.copy # 代码复制按钮
+    - content.footnote.tooltips # 脚注提示
 markdown_extensions: 
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
   - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
@@ -34,7 +41,6 @@ markdown_extensions:
   - admonition
   - footnotes
   - meta
-  - def_list
   - pymdownx.arithmatex:
       generic: true  # 启用 MathJax
   - pymdownx.betterem:
@@ -47,7 +53,6 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.tasklist
   - pymdownx.tilde
   - pymdownx.highlight:
       anchor_linenums: true
@@ -56,6 +61,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      # clickable_checkbox: true // 是否可选
 extra_javascript: # 显示公式js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 plugins:
