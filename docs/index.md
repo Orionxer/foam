@@ -62,11 +62,18 @@ It's good to use mkdocs-material!
 
 You can create todos in Foam.
 
-- [ ] 修复图片无法访问问题
-- [ ] 选择更美观的主题
-- [ ] 查看 mkdocs 和 mkdocs-material 文档
+- [x] 修复图片无法访问问题, 目录层级问题，/docs
+- [x] 选择更美观的主题，pip 安装其他主题
+- [x] 查看 mkdocs 和 mkdocs-material 文档
+- [x] 修复公式无法显示问题
+- [ ] 表格美化,默认样式，无法美化
+- [ ] 代码块美化，默认样式，无法美化
+- [ ] Alt + C 切换待办列表状态，增加gif演示
+- [x] 增加代码块复制按钮
+- [x] 深色/切色模式切换
 - [x] This is an example of a todo list item that's complete
 - [ ] This one is not completed yet
+
 
 [通过github/gitee page生成网页，分享你的foam/obsidian/markdown笔记](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
 
@@ -78,7 +85,7 @@ mkdocs serve
 
 ## Code Snippet
 
-```c
+```c title="demo.c"
 /******************************************************
  * @brief   最简单的C函数
  * @note    没有需要注意的
@@ -105,7 +112,7 @@ $$
 \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
-![Memory View](image.png)
+![Memory View](images/index.md/memory.png)
 
 ## Git Commit常用Emoji
 
@@ -127,10 +134,6 @@ $$
 
 <summary>Tips for collapsed sections</summary>
 
-### You can add a header
-
-You can add text within a collapsed section. 
-
 You can add an image or a code block, too.
 
 ```ruby
@@ -138,5 +141,40 @@ puts "Hello World"~~~~
 ```
 
 </details>
+
+!!! abstract
+    This is a abstract test.
+
+!!! info
+    This is a info test.
+
+!!! question
+    This is a question test.
+
+!!! warning
+    This is a warning test.
+
+!!! failure
+    This is a failure test.
+
+!!! danger
+    This is a danger test.
+
+!!! bug
+    This is a bug test.
+
+!!! example
+    This is a example test.
+
+
+??? success
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+### 27th
+??? abstract "What's your day today"
+    Not a bad day.
 
 [^1]: 脚注 1
