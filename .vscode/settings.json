@@ -15,7 +15,8 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.exclude": {
-    "_site/**": true
+    "_site/**": true,
+    "**/.git": false
   },
   "files.insertFinalNewline": true,
   "markdown.styles": [".vscode/custom-tag-style.css"],
