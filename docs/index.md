@@ -6,7 +6,7 @@ Foam is a collection VS Code extensions and recipes that power up the editor int
 
 这是一个脚注 [^1]
 
-双向链接测试: [[c_callback_func#简单示例]]
+双向链接测试: [[C语言回调函数#简单示例]]
 
 ## Getting Started
 
