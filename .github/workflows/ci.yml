@@ -17,6 +17,7 @@ jobs:
           python-version: "3.10"
       # Install all required packages in one step
       - run: |
-          pip install mkdocs-material mkdocs-exclude mkdocs-roamlinks-plugin
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # 安装requirements.txt中的依赖
       # Deploy to GitHub Pages
       - run: mkdocs gh-deploy --force
