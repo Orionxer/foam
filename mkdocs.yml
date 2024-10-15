@@ -3,7 +3,7 @@
 
 site_name: Orionxer's Note
 theme:
-  name: material
+  name: cinder
   # logo: material/library
   palette:
     # Palette toggle for light mode
@@ -70,9 +70,9 @@ markdown_extensions:
 extra_javascript: # 显示公式js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 plugins:
-  - tags:
-      enabled: true
-      tags: false # 是否在文章顶部显示标签
+  # - tags:
+  #     enabled: true
+  #     tags: false # 是否在文章顶部显示标签
   - search:
       jieba_dict: dict.txt  # 强化中文搜索
   - roamlinks 
