@@ -1,7 +1,11 @@
 ---
+title: C语言回调函数
+date: 2024-10-15
+type: DailyNote
 tags:
   - C
 ---
+
 # C语言回调函数
 
 ## Demo

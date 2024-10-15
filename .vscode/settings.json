@@ -24,11 +24,11 @@
   "foam.graph.style": {
     "background": "#202020",
     "node": {
-        // "note": "#277da1",
-        "placeholder": "#545454",
-        "tag": "#f9c74f",
-        "feature": "red",
-        "todo": "cyan",
+      // "note": "#277da1",
+      "placeholder": "#545454",
+      "tag": "#f9c74f",
+      "feature": "red",
+      "todo": "cyan",
     }
-}
+  }
 }

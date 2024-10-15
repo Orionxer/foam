@@ -2,26 +2,34 @@
 # https://squidfunk.github.io/mkdocs-material/
 
 site_name: Orionxer's Note
+site_url: https://orionxer.github.io/foam
+# nav: # 自定义导航栏
+#   - Home: index.md
+#   - About: todo.md
+#   - Gettting Started: 
+#     - getting-started/creating-new-notes.md
+# repo_url: https://github.com/squidfunk/mkdocs-material # 添加github仓库信息
+# repo_name: squidfunk/mkdocs-material
 theme:
-  name: cinder
-  # logo: material/library
+  name: material
+  # logo: images/favicon.png # 待更新为自定义的主页Logo
   palette:
     # Palette toggle for light mode
     - scheme: default # 浅色模式
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-night
         name: 切换深色模式
       primary: teal   # 主题颜色
       accent: green
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: 切换浅色模式
       primary: teal   # 主题颜色
       accent: green
   #  favicon: attachment/portrait.png
-  language: zh # 中文，解决中文搜索问题
+  language: zh
   features:
     - navigation.expand 
     # - navigation.instant
@@ -67,12 +75,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       # clickable_checkbox: true // 是否可选
-extra_javascript: # 显示公式js
+extra_javascript: # 显示数学公式js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 plugins:
-  # - tags:
-  #     enabled: true
-  #     tags: false # 是否在文章顶部显示标签
+  - tags:         # material主题自带，其他主题可能需要注释tags功能
+      enabled: true
+      tags: false # 是否在文章顶部显示标签
   - search:
       jieba_dict: dict.txt  # 强化中文搜索
   - roamlinks 

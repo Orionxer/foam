@@ -70,7 +70,11 @@ You can create todos in Foam.
 - [x] 添加Foam节点不同颜色
 - [ ] 美化Foam节点颜色，根据等级划分，尽可能保证色彩协调性,比如使用莫兰迪色系，或者参考obsidian优秀配色(图谱)
 - [ ] .gitignore尝试忽略site文件夹
-- [ ] ci.yml同步requirements.txt
+- [x] ci.yml同步requirements.txt
+- [ ] 快速生成双链 `/day` [[DailyNote-2024-10-15]]，增加gif演示
+- [ ] 快速生成头部meta信息 `/meta`, VSCode的代码片段功能,增加gif演示
+- [ ] github pages设置自定义域名解析: [foam.gogo.uno](https://foam.gogo.uno)
+- [ ] 重新整理`mkdocs.yml`以[Material官网说明](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)为准
 - [ ] 表格美化,默认样式，无法美化
 - [ ] 代码块美化，默认样式，无法美化
 - [ ] Alt + C 切换待办列表状态，增加gif演示
@@ -81,6 +85,16 @@ You can create todos in Foam.
 
 
 [通过github/gitee page生成网页，分享你的foam/obsidian/markdown笔记](https://github.com/Jackiexiao/foam-mkdocs-template/blob/master/README-zh.md)
+
+[VS Code 中的双链笔记：Foam 使用体验分享](https://sspai.com/post/70956)
+
+[Foam使用说明](https://www.onekbase.com/kb-km/2dn-km-vsc-foam.html)
+
+[MkDocs中文文档](https://hellowac.github.io/mkdocs-docs-zh/)
+
+[MkDocs - Project documentation with Markdown](https://github.com/mkdocs/mkdocs)
+
+[🏆 📚 A list of awesome MkDocs projects and plugins.](https://github.com/mkdocs/catalog)
 
 ## 本地部署
 ```sh
