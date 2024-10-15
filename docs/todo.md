@@ -1,6 +1,6 @@
 ---
 title: 待办列表
-type: note
+type: todo
 tags:
   - C
   - CPP

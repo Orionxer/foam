@@ -67,6 +67,10 @@ You can create todos in Foam.
 - [x] 查看 mkdocs 和 mkdocs-material 文档
 - [x] 修复公式无法显示问题
 - [x] 强化中文搜索 jieba
+- [x] 添加Foam节点不同颜色
+- [ ] 美化Foam节点颜色，根据等级划分，尽可能保证色彩协调性,比如使用莫兰迪色系，或者参考obsidian优秀配色(图谱)
+- [ ] .gitignore尝试忽略site文件夹
+- [ ] ci.yml同步requirements.txt
 - [ ] 表格美化,默认样式，无法美化
 - [ ] 代码块美化，默认样式，无法美化
 - [ ] Alt + C 切换待办列表状态，增加gif演示

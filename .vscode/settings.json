@@ -19,6 +19,8 @@
   },
   "files.insertFinalNewline": true,
   "markdown.styles": [".vscode/custom-tag-style.css"],
+  "foam.openDailyNote.directory": "docs",
+  "foam.openDailyNote.filenameFormat": "'DailyNote'-yyyy-mm-dd", // Eg.: DailyNote-2022-01-13.md
   "foam.graph.style": {
     "background": "#202020",
     "node": {
