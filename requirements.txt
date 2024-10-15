@@ -1,5 +1,7 @@
 mkdocs
 mkdocs-exclude
-mkdocs-material
+mkdocs-material # material 主题
 mkdocs-roamlinks-plugin
 pymdown-extensions
+jieba # 强化中文搜索
+mkdocs-cinder # cinder主题

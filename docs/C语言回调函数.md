@@ -1,6 +1,10 @@
+---
+tags:
+  - C
+---
 # C语言回调函数
 
-## 简单示例
+## Demo
 ```C
 #include <stdio.h>
 

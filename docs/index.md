@@ -1,12 +1,14 @@
 # Using Foam
 
+
+
 Foam is a collection VS Code extensions and recipes that power up the editor into a full-blown note taking system. This folder contains user documentation describing how to get started using Foam, what its main features are, and strategies for getting the most out of Foam. The full docs are included in the `foam-template` repo that most users start from.
 
 > See also [[frequently-asked-questions]].
 
 这是一个脚注 [^1]
 
-双向链接测试: [[C语言回调函数#简单示例]]
+双向链接测试: [[C语言回调函数]]
 
 ## Getting Started
 
@@ -64,6 +66,7 @@ You can create todos in Foam.
 - [x] 选择更美观的主题，pip 安装其他主题
 - [x] 查看 mkdocs 和 mkdocs-material 文档
 - [x] 修复公式无法显示问题
+- [x] 强化中文搜索 jieba
 - [ ] 表格美化,默认样式，无法美化
 - [ ] 代码块美化，默认样式，无法美化
 - [ ] Alt + C 切换待办列表状态，增加gif演示
