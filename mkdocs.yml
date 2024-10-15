@@ -1,5 +1,6 @@
 # 官方文档
-# https://squidfunk.github.io/mkdocs-material/
+# https://www.mkdocs.org/getting-started/
+# https://squidfunk.github.io/mkdocs-material/setup/
 
 site_name: Orionxer's Note
 site_url: https://orionxer.github.io/foam
@@ -44,8 +45,9 @@ theme:
     - content.footnote.tooltips # 脚注提示
 markdown_extensions: 
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
-  - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
-  - nl2br # newline-to-break 
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: false
   - admonition
@@ -56,14 +58,14 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.critic
   - pymdownx.details
   # - pymdownx.emoji:
       # emoji_generator: !!python/name:pymdownx.emoji.to_png
   - pymdownx.magiclink
-  - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.tilde
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -85,13 +87,13 @@ plugins:
       jieba_dict: dict.txt  # 强化中文搜索
   - roamlinks 
     # - autolinks 
-  - exclude:
-      glob:
-        - "*.tmp"
-        - "*.pdf"
-        - "*.gz"
-      regex:
-        - '.*\.(tmp|bin|tar)$'
+  # - exclude:
+  #     glob:
+  #       - "*.tmp"
+  #       - "*.pdf"
+  #       - "*.gz"
+  #     regex:
+  #       - '.*\.(tmp|bin|tar)$'
         
 # copyright: Creative Commons BY SA 4.0
 # extra:
