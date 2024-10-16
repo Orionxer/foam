@@ -10,6 +10,19 @@
 ![GitHub License](https://img.shields.io/github/license/orionxer/foam)
 ![GitHub top language](https://img.shields.io/github/languages/top/orionxer/foam)
 
+![Website](https://img.shields.io/website?url=https%3A%2F%2Ffoam.gogo.uno)
+
+
+
+
+
+
+
+
+
+
+
+
 This documentation assumes that you have a GitHub account and have [Visual Studio Code](https://code.visualstudio.com/) installed on your Linux/macOS/Windows machine.
 
 1. If you haven't yet, browse over to the main [Foam documentation](https://foambubble.github.io/foam) to get an idea of what Foam is and how to use it.
