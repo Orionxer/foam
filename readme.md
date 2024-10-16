@@ -10,7 +10,7 @@
 ![GitHub License](https://img.shields.io/github/license/orionxer/foam)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/orionxer/foam)
 ![GitHub repo size](https://img.shields.io/github/repo-size/orionxer/foam)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fblog.gogo.uno)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Forionxer.github.io/foam)
 
 
 
