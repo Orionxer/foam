@@ -68,7 +68,7 @@ You can create todos in Foam.
 - [x] 修复公式无法显示问题
 - [x] 强化中文搜索 jieba
 - [x] 添加Foam节点不同颜色
-- [ ] 美化Foam节点颜色，根据等级划分，尽可能保证色彩协调性,比如使用莫兰迪色系，或者参考obsidian优秀配色(图谱)
+- [x] 美化Foam节点颜色，根据等级划分，尽可能保证色彩协调性,比如使用莫兰迪色系，或者参考obsidian优秀配色(图谱)
 - [x] .gitignore尝试忽略site文件夹
 - [x] ci.yml同步requirements.txt
 - [ ] 快速生成双链 `/day` [[DailyNote-2024-10-15]]，增加gif演示
