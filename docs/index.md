@@ -69,12 +69,12 @@ You can create todos in Foam.
 - [x] 强化中文搜索 jieba
 - [x] 添加Foam节点不同颜色
 - [ ] 美化Foam节点颜色，根据等级划分，尽可能保证色彩协调性,比如使用莫兰迪色系，或者参考obsidian优秀配色(图谱)
-- [ ] .gitignore尝试忽略site文件夹
+- [x] .gitignore尝试忽略site文件夹
 - [x] ci.yml同步requirements.txt
 - [ ] 快速生成双链 `/day` [[DailyNote-2024-10-15]]，增加gif演示
 - [ ] 快速生成头部meta信息 `/meta`, VSCode的代码片段功能,增加gif演示
-- [ ] github pages设置自定义域名解析: [foam.gogo.uno](https://foam.gogo.uno)
-- [ ] 重新整理`mkdocs.yml`以[Material官网说明](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)为准
+- [x] github pages设置自定义域名解析: [foam.gogo.uno](https://foam.gogo.uno),旧域名自动失效，注意通配符A记录解析以及CNAME解析记录的优先级问题
+- [x] 重新整理`mkdocs.yml`以[Material官网说明](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)为准
 - [ ] 表格美化,默认样式，无法美化
 - [ ] 代码块美化，默认样式，无法美化
 - [ ] Alt + C 切换待办列表状态，增加gif演示

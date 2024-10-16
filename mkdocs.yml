@@ -12,7 +12,7 @@ site_url: https://orionxer.github.io/foam
 # repo_url: https://github.com/squidfunk/mkdocs-material # 添加github仓库信息
 # repo_name: squidfunk/mkdocs-material
 theme:
-  name: material
+  name: cinder
   # logo: images/favicon.png # 待更新为自定义的主页Logo
   palette:
     # Palette toggle for light mode
