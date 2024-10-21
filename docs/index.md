@@ -1,6 +1,6 @@
 # Using Foam
 
-
+![GitHub License](https://img.shields.io/github/license/orionxer/foam)
 
 Foam is a collection VS Code extensions and recipes that power up the editor into a full-blown note taking system. This folder contains user documentation describing how to get started using Foam, what its main features are, and strategies for getting the most out of Foam. The full docs are included in the `foam-template` repo that most users start from.
 
@@ -71,7 +71,7 @@ You can create todos in Foam.
 - [x] 美化Foam节点颜色，根据等级划分，尽可能保证色彩协调性,比如使用莫兰迪色系，或者参考obsidian优秀配色(图谱)
 - [x] .gitignore尝试忽略site文件夹
 - [x] ci.yml同步requirements.txt
-- [ ] README增加开源协议说明，本项目遵守`GPL 3.0`协议。你可以自由复制修改，如果你有分发行为（比如上传至github仓库，并设置仓库属性为公开），则继续遵守`GPL 3.0`协议即可。至于离线使用或者将仓库属性设置为私有，则不在`GPL 3.0`协议限制范围之内。
+- [ ] README增加开源协议说明，本项目遵守`GPL 3.0`协议。你可以自由复制修改，如果你有分发行为（比如上传至github仓库，并设置仓库属性为公开），则继续遵守`GPL 3.0`协议即可。至于离线使用或者将仓库属性设置为私有，则不在`GPL 3.0`协议限制范围之内。🍻
 - [ ] 快速生成双链 `/day` [[DailyNote-2024-10-15]]，增加gif演示
 - [ ] 快速生成头部meta信息 `/meta`, VSCode的代码片段功能,增加gif演示
 - [x] github pages设置自定义域名解析: [foam.gogo.uno](https://foam.gogo.uno),旧域名自动失效，注意通配符A记录解析以及CNAME解析记录的优先级问题

@@ -7,11 +7,9 @@
 ## Getting started
 
 ![Build Workflow](https://github.com/orionxer/foam/actions/workflows/ci.yml/badge.svg)
-![GitHub License](https://img.shields.io/github/license/orionxer/foam)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/orionxer/foam)
-![GitHub repo size](https://img.shields.io/github/repo-size/orionxer/foam)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Forionxer.github.io/foam)
-
+![GitHub License](https://img.shields.io/github/license/orionxer/foam)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mkdocs)
 
 
 
